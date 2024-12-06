@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Compras de Itens</title>
+</head>
+<body>
+    <h1>Minha Loja</h1>
+    <button id="cartButton">🛒 Carrinho (<span id="cartCount">0</span>)</button>
+  </header>
+  <main>
+    <section id="products">
+      <h2>Produtos Disponíveis</h2>
+      <div class="product-card">
+      <div class="product" data-id="1" data-name="Produto A" data-price="50">
+        <h3>Produto A</h3>
+        <p>Preço: R$ 50,00</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="product" data-id="2" data-name="Produto B" data-price="30">
+        <h3>Produto B</h3>
+        <p>Preço: R$ 30,00</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="product" data-id="3" data-name="Produto C" data-price="20">
+        <h3>Produto C</h3>
+        <p>Preço: R$ 20,00</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+    </section>
+   
+   
+    <section id="cart">
+      <h2>Seu Carrinho</h2>
+      <ul id="cartItems"></ul>
+      <p id="totalPrice">Total: R$ 0,00</p>
+    </section>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>
